@@ -17,4 +17,4 @@ run:
     port: 8000
   secrets:
     - name: DATABASE_URL
-      value-from: "<replace-with-param-arn>"
+      value-from: "arn:aws:ssm:eu-central-1:793040666112:parameter/DATABASE_URL"
